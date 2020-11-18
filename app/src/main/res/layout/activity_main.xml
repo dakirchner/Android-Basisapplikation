@@ -29,7 +29,8 @@
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/main"
+            android:text="@string/main_text"
             android:layout_width="370dp"
             android:layout_height="127dp"
             android:layout_marginTop="20dp" />
@@ -43,10 +44,10 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/textview_distance"
                     android:layout_width="156dp"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="@string/text_distance"/>
 
                 <EditText
                     android:id="@+id/distance"
@@ -54,7 +55,7 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="20dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </TableRow>
 
             <TableRow
@@ -62,10 +63,11 @@
                 android:layout_height="match_parent" >
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/textview_time"
+                    android:text="@string/text_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                     />
 
                 <EditText
                     android:id="@+id/time"
@@ -73,7 +75,7 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="20dp"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="numberDecimal" />
             </TableRow>
 
             <TableRow
@@ -81,10 +83,10 @@
                 android:layout_height="match_parent" >
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/textview_breaktime"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:text="@string/text_breaktime" />
 
                 <EditText
                     android:id="@+id/breakTime"
@@ -101,7 +103,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/text_button" />
 
     </LinearLayout>
 
