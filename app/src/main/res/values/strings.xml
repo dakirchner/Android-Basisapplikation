@@ -8,4 +8,10 @@
    <string name="text_time">Benötigte Zeit</string>
    <string name="text_breaktime">Pausen</string>
    <string name="text_button">zu den Ergebnissen</string>
+
+
+   <string name="text_distance_label">Distanz (km)</string>
+   <string name="text_pace_label">Pace (min/km)</string>
+   <string name="text_kalorien_label">Kalorien (kcal)</string>
+
 </resources>
